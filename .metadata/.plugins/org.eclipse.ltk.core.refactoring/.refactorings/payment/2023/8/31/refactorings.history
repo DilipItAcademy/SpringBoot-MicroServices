@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;PaymentDetails.java&apos; to &apos;user/src/main/java/com.swiggy.food.request&apos;&#x0D;&#x0A;- Original project: &apos;payment&apos;&#x0D;&#x0A;- Destination element: &apos;user/src/main/java/com.swiggy.food.request&apos;&#x0D;&#x0A;- Original element: &apos;com.swiggy.food.request.PaymentDetails.java&apos;" description="Copy compilation unit" destination="=user/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.swiggy.food.request" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.swiggy.food.request{PaymentDetails.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1690856916393" units="1" version="1.0"/>
-</session>

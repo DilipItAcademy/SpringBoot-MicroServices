@@ -1,5 +1,0 @@
-INDEX VERSION 1.134
-D:\workspaces\MicroServices730AM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4056400512.index
-\spring-mvc-app\src\main\java
-D:\workspaces\MicroServices730AM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1595030209.index
-\spring-web-notes\src\main\java
