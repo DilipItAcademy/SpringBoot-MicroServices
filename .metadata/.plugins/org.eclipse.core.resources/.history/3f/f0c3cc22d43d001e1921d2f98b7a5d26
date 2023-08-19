@@ -1,0 +1,31 @@
+#APP Project Info
+
+
+spring.application.name=user-service
+
+
+#Config Server
+spring.config.import=optional:configserver:http://localhost:9988/config
+
+
+management.health.circuitbreakers.enabled=true
+management.endpoints.web.exposure.include=health
+management.endpoint.health.show-details=always
+
+#Resilience Circuit Breaker
+resilience4j.circuitbreaker.instances.user-service.registerHealthIndicator=true
+resilience4j.circuitbreaker.instances.user-service.eventConsumerBufferSize=10
+resilience4j.circuitbreaker.instances.user-service.failureRateThreshold=50
+resilience4j.circuitbreaker.instances.user-service.minimumNumberOfCalls=5
+resilience4j.circuitbreaker.instances.user-service.automaticTransitionFromOpenToHalfOpenEnabled=true
+resilience4j.circuitbreaker.instances.user-service.waitDurationInOpenState=6s
+resilience4j.circuitbreaker.instances.user-service.permittedNumberOfCallsInHalfOpenState=3
+resilience4j.circuitbreaker.instances.user-service.slidingWindowSize=10
+resilience4j.circuitbreaker.instances.user-service.slidingWindowType=COUNT_BASED
+
+
+
+
+
+
+
